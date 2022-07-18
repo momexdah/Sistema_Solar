@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Solar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse menu" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About System Solar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#planets">Planets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#clasificacion">Clasificación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team-c">Team</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- carrusel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/ss1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-sm-block d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://static.abc.es/media/ciencia/2022/07/04/edu_solar_system_large-kc0H--620x349@abc.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/ss3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- sobre -->
+    <div class="container" id="about">
+        <h1 class="text-center">Sistema Solar</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eos voluptatibus quis sit similique at enim minus. Quae, modi non? Sint explicabo repellendus illum accusamus nihil autem, repudiandae minima hic.</p>
+    </div>
+    <!-- planetas -->
+    <div class="container text-center" id="planets">
+        <div class="row">
+            <div class="col">
+                <h2>Planets</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card col-sm-5 col-md-3 g-1">
+                <img src="https://thumbs.dreamstime.com/b/planeta-de-mercurio-aislado-en-fondo-blanco-representaci%C3%B3n-d-166881569.jpg" class="card-img-top img-fluid img-thumbnail col-6" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mercurio</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mercurioModal">Go somewhere</a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="mercurioModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Mercurio</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-sm-5 col-md-3 g-2">
+                <img src="images/venus.jpg" class="card-img-top img-fluid img-thumbnail col-6" alt="venus">
+                <div class="card-body">
+                    <h5 class="card-title">Venus</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#venusModal">Go somewhere</a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="venusModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Venus</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-sm-5 col-md-3 g-2">
+                <img src="images/tierra.jpg" class="card-img-top img-fluid img-thumbnail col-6" alt="Tierra">
+                <div class="card-body">
+                    <h5 class="card-title">Tierra</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tierraModal">Go somewhere</a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="tierraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Tierra</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-sm-5 col-md-3 g-2">
+                <img src="images/marte.jpg" class="card-img-top img-fluid img-thumbnail col-6" alt="marte">
+                <div class="card-body">
+                    <h5 class="card-title">Marte</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#marteModal">Go somewhere</a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="marteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Marte</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card col-sm-5 col-md-3 g-2">
+                <img src="images/jupiter.jpg" class="card-img-top img-fluid img-thumbnail col-6" alt="jupiter">
+                <div class="card-body">
+                    <h5 class="card-title">Júpiter</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#jupiterModal">Go somewhere</a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="jupiterModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Júpiter</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-sm-5 col-md-3 g-2">
+                <img src="images/saturno.jpg" class="card-img-top img-fluid img-thumbnail col-6" alt="saturno">
+                <div class="card-body">
+                    <h5 class="card-title">Saturno</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#saturnoModal">Go somewhere</a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="saturnoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Satruno</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-sm-5 col-md-3 g-2">
+                <img src="images/urano.jpg" class="card-img-top img-fluid img-thumbnail col-6" alt="urano">
+                <div class="card-body">
+                    <h5 class="card-title">Urano</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#uranoModal">Go somewhere</a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="uranoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Urano</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-sm-5 col-md-3 g-2">
+                <img src="images/neptuno.jpg" class="card-img-top img-fluid img-thumbnail col-6" alt="neptuno">
+                <div class="card-body">
+                    <h5 class="card-title">Neptuno</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#neptunoModal">Go somewhere</a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="neptunoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Neptuno</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Clasificacion -->
+    <div class="container" id="clasificacion">
+        <div class="row">
+            <h2 class="text-center">Clasificación</h2>
+        </div>
+        <!-- nuevo -->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Tamaño
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body table-responsive">
+                    <table class="table table-primary table-hover">
+                        <tr>
+                            <th>Planeta</th>
+                            <th>Tamaño</th>
+                            <th>Relación a la Tierra</th>
+                        </tr>
+                        <tr>
+                            <td>Júpiter</td>
+                            <td>69911 km</td>
+                            <td>1120%</td>
+                        </tr>
+                        <tr>
+                            <td>Saturno</td>
+                            <td>58232 km</td>
+                            <td>945%</td>
+                        </tr>
+                        <tr>
+                            <td>Urano</td>
+                            <td>25362 km</td>
+                            <td>400%</td>
+                        </tr>
+                        <tr>
+                            <td>Neptuno</td>
+                            <td>24662 km</td>
+                            <td>388%</td>
+                        </tr>
+                        <tr>
+                            <td>Tierra</td>
+                            <td colspan="2">6371 km</td>
+                        </tr>
+                        <tr>
+                            <td>Venus</td>
+                            <td>6052 km</td>
+                            <td>95%</td>
+                        </tr>
+                        <tr>
+                            <td>Marte</td>
+                            <td>3390 km</td>
+                            <td>53%</td>
+                        </tr>
+                        <tr>
+                            <td>Mercurio</td>
+                            <td>2440 km</td>
+                            <td>38%</td>
+                        </tr>
+                    </table>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Superficie
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <table class="table table-dark table-striped align-middle">
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Planeta</th>
+                            <th>Descripción</th>
+                        </tr>
+                        <tr>
+                            <td rowspan="4">Rocoso</td>
+                            <td>Mercurio</td>
+                            <td><p>Mercurio es el planeta más cercano al sol y solo tarda 88 días en completar su órbita. Es el planeta más pequeño del sistema solar y está hecho completamente de roca. Mercurio casi no tiene atmósfera, lo que significa que la temperatura cambia según la parte del planeta que esté frente al sol.</p></td>
+                        </tr>
+                        <tr>
+                            <td>Venus</td>
+                            <td><p>Venus es el siguiente y completa su órbita alrededor del sol en unos 225 días. Al igual que Mercurio, Venus también está formado por rocas. Venus tiene una atmósfera a su alrededor, pero es tan espesa que el planeta está permanentemente cubierto de nubes. Este fue también el primer planeta visitado por una sonda espacial en 1962.</p></td>
+                        </tr>
+                        <tr>
+                            <td>Tierra</td>
+                            <td><p>Tierra ¡La Tierra es nuestro planeta! Está formado por rocas y es el único planeta donde el agua es líquida, ya que tiene la temperatura ideal en comparación con otros planetas del sistema solar.</p></td>
+                        </tr>
+                        <tr>
+                            <td>Marte</td>
+                            <td><p>Marte es el "planeta rojo" porque tiene un color rojizo (debido a la superficie rociada con polvo oxidado, rico en hierro). Aunque tiene solo la mitad del diámetro de la Tierra y está mucho más lejos del sol, Marte tiene muchas similitudes con la Tierra.</p></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4">Gaseoso</td>
+                            <td>Júpiter</td>
+                            <td><p>Júpiter es el más grande de los planetas del sistema solar y lo que puede sorprenderte es que Júpiter tarda casi 12 años en dar la vuelta al sol.</p></td>
+                        </tr>
+                        <tr>
+                            <td>Saturno</td>
+                            <td><p>Saturno es mejor conocido por sus anillos, que están hechos de pequeños trozos de hielo y polvo. Estos anillos fueron descubiertos por primera vez por Galileo a través del telescopio. Saturno tarda 29,5 años en orbitar alrededor del Sol.</p></td>
+                        </tr>
+                        <tr>
+                            <td>Urano</td>
+                            <td><p>Urano es el más frío de los planetas del sistema solar, con una temperatura promedio de -220 grados centígrados. ¡Urano tarda 84 años en orbitar alrededor del Sol y es 63 veces más grande que la Tierra!</p></td>
+                        </tr>
+                        <tr>
+                            <td>Neptuno</td>
+                            <td><p>Neptuno es el planeta más alejado del Sol, por lo que Neptuno necesita 165 años para orbitar a su alrededor.</p></td>
+                        </tr>
+                    </table>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Rotación
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <table class="table table-info table-hover align-middle">
+                        <tr>
+                            <th>Planeta</th>
+                            <th>Duración de Rotación</th>
+                        </tr>
+                        <tr>
+                            <td>Júpiter</td>
+                            <td>0 días 9h 56min</td>
+                        </tr>
+                        <tr>
+                            <td>Saturno</td>
+                            <td>0 días 10h 42min</td>
+                        </tr>
+                        <tr>
+                            <td>Neptuno</td>
+                            <td>0 días 16h 6min</td>
+                        </tr>
+                        <tr>
+                            <td>Urano</td>
+                            <td>0 días 17h 14min</td>
+                        </tr>
+                        <tr>
+                            <td>Tierra</td>
+                            <td>0 días 23h 56min</td>
+                        </tr>
+                        <tr>
+                            <td>Marte</td>
+                            <td>1 día 0h 37min</td>
+                        </tr>
+                        <tr>
+                            <td>Mercurio</td>
+                            <td>58 días 15h 30min</td>
+                        </tr>
+                        <tr>
+                            <td>Venus</td>
+                            <td>116 días 18h 0min</td>
+                        </tr>
+                    </table>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- Team -->
+    <div class="container-sm" id="team-c">
+        <h2 class="text-center">Team</h2>
+        <div class="team">
+            <div class="card">
+                <img src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Diomedes Arribasplata</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Victor Hernandez</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Roberto Ocas</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Jean Pierre Teran</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Recursos -->
+    <div class="recursos bg-dark text-warning" id="recursos">
+        <div class="footer">
+            <ul class="list-unstyled m-1">
+                <li><b class="text-uppercase">Herramientas</b></li>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Bootstrap</li>
+            </ul>
+            <ul class="list-unstyled m-1">
+                <li><b class="text-uppercase">Temas</b></li>
+                <li>Tablas</li>
+                <li>Diseño Responsivo</li>
+                <li>Grid</li>
+                <li>FlexBox</li>
+                <li>Acordeón</li>
+                <li>Slider</li>
+            </ul>
+            <ul class="list-unstyled m-1">
+                <li><b class="text-uppercase">Información</b></li>
+                <li><a class="text-warning" target="_blank" href="https://getbootstrap.com/docs/5.1/getting-started/introduction/">Documentación Boostrap</a></li>
+                <li><a class="text-warning" target="_blank" href="https://www.twinkl.es/teaching-wiki/los-planetas-del-sistema-solar">Los planetas</a></li>
+                <li><a class="text-warning" target="_blank" href="https://misistemasolar.com/planetas-por-tamano/">Mi sistema solar</a></li>
+                <li><a class="text-warning" target="_blank" href="https://spaceplace.nasa.gov/menu/solar-system/sp/">Space Place Nasa</a></li>
+            </ul>
+        </div>
+        <div class="text-center p-2 bg-light"><span>&copy; Derechos Reservados</span></div>
+    </div>
+</body>
+</html>

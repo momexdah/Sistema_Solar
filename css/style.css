@@ -1,0 +1,105 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.accordion{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+.footer a{
+    text-decoration: none;
+}
+.card{
+    border: none;
+}
+#planets .card img{
+    width: 200px;
+    height: 200px;
+    border: none;
+    margin: 0 auto;
+}
+.team-c{
+    padding-top: 40px;
+}
+.team{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 50px;
+}
+.team .card{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+}
+.team .card img{
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.team .card p{
+    text-align: center;
+    text-shadow: 0px 0px 1px;
+}
+@media only screen and (max-width: 575px) {
+    body{
+        font-size: 12px;
+    }
+    .card{
+        width: 95%;
+        display: flex;
+        margin: 5px 10px;
+    }
+    .card:nth-child(odd){
+        flex-direction: row;
+    }
+    .card:nth-child(even){
+        flex-direction: row-reverse;
+    }
+    .card a{
+        font-size: 10px;
+    }
+    .team{
+        margin: 10px auto;
+        width: 80%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .team .card{
+        min-width: 30%;
+
+    }
+    .team .card img{
+        width: 90px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    body{
+        font-size: 14px;
+    }
+    .card{
+        margin: 5px auto;
+    }
+    .card img{
+        margin: 0 auto;
+        border: none;
+    }
+    .team{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .team .card{
+        width: 95%;
+    }
+    .team .card img{
+        width: 120px;
+    }
+    
+}
